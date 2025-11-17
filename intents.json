@@ -1,0 +1,1204 @@
+{
+  "intents": [
+    {
+      "tag": "how_to_apply_university",
+      "patterns": [
+        "How do I apply to Teesside University?",
+        "What is the application process?",
+        "How can I submit my application?",
+        "Where do I apply for courses?",
+        "Tell me about the application procedure"
+      ],
+      "responses": [
+        "Applications are made online. For undergraduate courses, you apply through UCAS. For postgraduate courses, you can apply directly through the university website using the 'apply online' link on your chosen course page."
+      ]
+    },
+    {
+      "tag": "apply_multiple_courses",
+      "patterns": [
+        "Can I apply for more than one course?",
+        "How do I apply for multiple courses?",
+        "Can I submit multiple applications?",
+        "Is it possible to apply to several courses?"
+      ],
+      "responses": [
+        "Yes, you need to apply to each course individually by selecting each course from the University website and submitting separate applications."
+      ]
+    },
+    {
+      "tag": "undergraduate_application_deadline",
+      "patterns": [
+        "What is the application deadline for undergraduate courses?",
+        "When is the deadline for UG applications?",
+        "When should I apply for undergraduate programmes?",
+        "What's the last date to apply for undergraduate courses?"
+      ],
+      "responses": [
+        "The main UCAS application deadline is typically January 29th for courses starting in September. Check specific course pages for exact deadlines."
+      ]
+    },
+    {
+      "tag": "postgraduate_application_deadline",
+      "patterns": [
+        "What is the application deadline for postgraduate courses?",
+        "When should I apply for postgraduate programmes?",
+        "What's the deadline for PG applications?",
+        "When is the last date for postgraduate applications?"
+      ],
+      "responses": [
+        "The normal deadline for applications to full-time taught degrees starting in September is July 31st. Some courses may have different deadlines, so please check your specific course page."
+      ]
+    },
+    {
+      "tag": "incomplete_application_information",
+      "patterns": [
+        "I haven't got all the information I need for my application",
+        "What if I don't have all the required information?",
+        "Can I save my application and complete it later?",
+        "I need to finish my application later"
+      ],
+      "responses": [
+        "If a course application requires a fuller set of information, you can save your application and come back later. Click the Save button on any page to exit the system while preserving all data and uploaded documents. You'll receive an email with a link to retrieve your application."
+      ]
+    },
+    {
+      "tag": "saved_application_validity",
+      "patterns": [
+        "How long can I save my application?",
+        "How long is my saved application valid?",
+        "When does my saved application expire?",
+        "How many times can I access my saved application?"
+      ],
+      "responses": [
+        "Your saved application link is valid for 30 days and can be used a maximum of 5 times. If an application has not been updated for 90 days, it will no longer be possible to re-access it."
+      ]
+    },
+    {
+      "tag": "save_function_availability",
+      "patterns": [
+        "Can I save all types of applications?",
+        "Is the save function available for all courses?",
+        "Can I save short course applications?"
+      ],
+      "responses": [
+        "When applying for short courses, the save function is often disabled and you may need to complete the application in one session."
+      ]
+    },
+    {
+      "tag": "reaccess_saved_application",
+      "patterns": [
+        "How do I re-access my saved application?",
+        "How can I continue my saved application?",
+        "Where is the link to my application?",
+        "How do I get back to my application?"
+      ],
+      "responses": [
+        "If you have saved your application, you can access it again via the link in the email sent to you. This link is valid for 30 days and can be used up to 5 times."
+      ]
+    },
+    {
+      "tag": "reaccess_submitted_application",
+      "patterns": [
+        "Can I re-access my application after submission?",
+        "Can I view my submitted application?",
+        "How do I see my application after I submit it?"
+      ],
+      "responses": [
+        "Once your application has been submitted, you cannot currently re-access it through the application portal."
+      ]
+    },
+    {
+      "tag": "system_timeout",
+      "patterns": [
+        "The system timed-out",
+        "My session expired",
+        "I got logged out automatically",
+        "What happens if the system times out?"
+      ],
+      "responses": [
+        "For security reasons, the system will time-out if you remain on the same page for too long. If you previously saved your application, use the link in your email to access it again."
+      ]
+    },
+    {
+      "tag": "email_address_for_communication",
+      "patterns": [
+        "Which email address will you use?",
+        "What email will the university contact me on?",
+        "Where will you send emails?",
+        "How do I know which email you'll use?"
+      ],
+      "responses": [
+        "The university will use the email address you provide when you click the Apply button and enter your basic personal information. This address will be used for all email correspondence."
+      ]
+    },
+    {
+      "tag": "application_confirmation_timing",
+      "patterns": [
+        "When will I receive confirmation of my application?",
+        "How long until I get an acknowledgment?",
+        "When will I know you received my application?"
+      ],
+      "responses": [
+        "Once you submit your application, you will receive an immediate confirmation email acknowledging receipt."
+      ]
+    },
+    {
+      "tag": "application_decision_timeline",
+      "patterns": [
+        "When will I hear back about my application?",
+        "How long does it take to get a decision?",
+        "When will I know if I'm accepted?",
+        "What is the decision timeline?"
+      ],
+      "responses": [
+        "After your application is transferred into the Student Records System, you will receive an email. From that point, the university will inform you of the decision within 14 days."
+      ]
+    },
+    {
+      "tag": "emails_during_application",
+      "patterns": [
+        "What emails will I receive?",
+        "How many emails will you send during the application?",
+        "What kind of communication should I expect?"
+      ],
+      "responses": [
+        "You will receive: a save confirmation email (if you save your application), a submission confirmation email, an email when your application enters the Student Records System, and a decision email within 14 days."
+      ]
+    },
+    {
+      "tag": "uploadable_documents",
+      "patterns": [
+        "What documents can I upload?",
+        "What supporting documents are needed?",
+        "Which files can I attach to my application?",
+        "What can I upload with my application?"
+      ],
+      "responses": [
+        "You can upload: Reference, Personal Statement, CV, Results/Transcripts/Certificates, English Language Qualifications (IELTS/TOEFL), Passport, Previous Visas, Previous Visa Refusals, and Portfolio."
+      ]
+    },
+    {
+      "tag": "research_course_documents",
+      "patterns": [
+        "What documents are required for research courses?",
+        "What additional documents do I need for research programmes?",
+        "Research course document requirements"
+      ],
+      "responses": [
+        "For Research courses, you must upload: Research Proposal, Research Training Document, Research Personal Statement, and Research Sponsorship/funding letter."
+      ]
+    },
+    {
+      "tag": "nursing_course_documents",
+      "patterns": [
+        "What documents are required for MSc Nursing?",
+        "What do I need to upload for nursing courses?",
+        "Nursing programme document requirements"
+      ],
+      "responses": [
+        "For MSc Nursing courses, you must upload: Portfolio of Evidence and Confidentiality and Informed Consent Declaration."
+      ]
+    },
+    {
+      "tag": "accepted_file_types",
+      "patterns": [
+        "What file types can I upload?",
+        "Which file formats are accepted?",
+        "Can I upload PDF files?",
+        "What document formats do you accept?"
+      ],
+      "responses": [
+        "Accepted file types include: .BMP, .DOC, .DOCX, .HTML, .JFIF, .JPEG, .JPG, .ODT, .PAGES, .PDF, .PNG, .PPT, .PPTX, .RTF, .TIF, .TXT, .XLS, .XLSX"
+      ]
+    },
+    {
+      "tag": "maximum_file_size",
+      "patterns": [
+        "What is the maximum file size?",
+        "How large can my uploaded files be?",
+        "Is there a file size limit?",
+        "What's the upload size restriction?"
+      ],
+      "responses": ["The maximum file size for any uploaded document is 2 MB."]
+    },
+    {
+      "tag": "submit_additional_documents",
+      "patterns": [
+        "Can I submit documents after applying?",
+        "I want to upload more documents after submission",
+        "How do I add additional supporting documents?",
+        "Can I send extra documents later?"
+      ],
+      "responses": [
+        "Yes, for most courses you can upload supporting documents via the Applicant Portal after submission. You'll access this once you set up your Teesside University IT account, typically sent via email several days after application receipt. You can also email documents to the appropriate department, ensuring you include any reference numbers provided."
+      ]
+    },
+    {
+      "tag": "submit_reference_letter",
+      "patterns": [
+        "How do I include a reference?",
+        "How do I submit my reference letter?",
+        "What about referee submissions?",
+        "Can I upload my reference myself?"
+      ],
+      "responses": [
+        "If you already have a copy of your reference, you can upload it as a supporting document during the application process."
+      ]
+    },
+    {
+      "tag": "application_guidance",
+      "patterns": [
+        "Is there guidance available?",
+        "Where can I find help during the application?",
+        "Are there instructions for applying?",
+        "Is there an application guide?"
+      ],
+      "responses": [
+        "Yes, guidance is provided on each page of the application process, sometimes in the form of pop-up windows."
+      ]
+    },
+    {
+      "tag": "course_not_available_online",
+      "patterns": [
+        "My course isn't available online",
+        "What if I can't find my course?",
+        "The course I want isn't showing up",
+        "My mode of attendance isn't available"
+      ],
+      "responses": [
+        "Check the course details on the University website or contact the appropriate admissions team using the contact details provided."
+      ]
+    },
+    {
+      "tag": "technical_difficulties",
+      "patterns": [
+        "I'm having technical issues",
+        "The application isn't working",
+        "I need technical help",
+        "Who can help with technical problems?"
+      ],
+      "responses": [
+        "Contact the University Admissions team at 01642 384228 for help with technical issues during the online application process."
+      ]
+    },
+    {
+      "tag": "mobile_application",
+      "patterns": [
+        "Can I apply on my phone?",
+        "Does the application work on mobile?",
+        "Can I use a tablet to apply?",
+        "Is mobile application supported?"
+      ],
+      "responses": [
+        "While the system is accessible on mobile devices, it's recommended to use a desktop or laptop computer for the best experience when uploading documents."
+      ]
+    },
+    {
+      "tag": "supported_browsers",
+      "patterns": [
+        "What browser should I use?",
+        "Which browsers are supported?",
+        "Can I use Chrome for the application?",
+        "Does it work on Safari?"
+      ],
+      "responses": [
+        "Use up-to-date versions of major browsers (Chrome, Firefox, Safari, Edge) for optimal performance."
+      ]
+    },
+    {
+      "tag": "contact_arts_creative",
+      "patterns": [
+        "How do I contact Arts and Creative Industries?",
+        "School of Arts phone number",
+        "Contact details for creative industries",
+        "Arts department contact"
+      ],
+      "responses": ["School of Arts and Creative Industries: 01642 384019"]
+    },
+    {
+      "tag": "contact_computing_engineering",
+      "patterns": [
+        "How do I contact Computing and Engineering?",
+        "School of Computing phone number",
+        "Engineering department contact",
+        "Digital Technologies contact details"
+      ],
+      "responses": [
+        "School of Computing, Engineering & Digital Technologies: 01642 342639"
+      ]
+    },
+    {
+      "tag": "contact_health_life_sciences",
+      "patterns": [
+        "How do I contact Health and Life Sciences?",
+        "School of Health phone number",
+        "Life Sciences department contact",
+        "Health courses contact details"
+      ],
+      "responses": ["School of Health & Life Sciences: 01642 384110"]
+    },
+    {
+      "tag": "contact_social_sciences",
+      "patterns": [
+        "How do I contact Social Sciences?",
+        "Humanities and Law department phone",
+        "Social Sciences contact details",
+        "Law school contact number"
+      ],
+      "responses": [
+        "School of Social Sciences, Humanities and Law: 01642 342308"
+      ]
+    },
+    {
+      "tag": "contact_international_business",
+      "patterns": [
+        "How do I contact International Business?",
+        "Teesside International Business phone",
+        "International business department contact"
+      ],
+      "responses": ["Teesside University International Business: 01642 342308"]
+    },
+    {
+      "tag": "contact_disability_services",
+      "patterns": [
+        "How do I contact Disability Services?",
+        "Disability support phone number",
+        "Where can I get disability help?",
+        "Accessibility services contact"
+      ],
+      "responses": ["Disability Services: 01642 342278"]
+    },
+    {
+      "tag": "contact_international_office",
+      "patterns": [
+        "How do I contact the International Office?",
+        "International students office phone",
+        "Contact for international enquiries",
+        "International support contact"
+      ],
+      "responses": ["International Office: 01642 384415"]
+    },
+    {
+      "tag": "contact_student_services",
+      "patterns": [
+        "How do I contact Student Services?",
+        "Accommodation office phone",
+        "Finance department contact",
+        "Student support services number"
+      ],
+      "responses": [
+        "Student Services (Accommodation, Finance, etc.): 01642 342277"
+      ]
+    },
+    {
+      "tag": "contact_general_admissions",
+      "patterns": [
+        "General admissions contact",
+        "Main admissions phone number",
+        "How do I contact admissions?",
+        "Admissions office enquiries"
+      ],
+      "responses": ["University Admissions - General Enquiries: 01642 384228"]
+    },
+    {
+      "tag": "contact_international_admissions",
+      "patterns": [
+        "International admissions contact",
+        "EU students admissions phone",
+        "Contact for international applications",
+        "Non-UK admissions number"
+      ],
+      "responses": ["University Admissions - International & EU: 01642 384244"]
+    },
+    {
+      "tag": "visa_requirement",
+      "patterns": [
+        "Do I need a visa?",
+        "Will I need a student visa?",
+        "Is a visa required for international students?",
+        "Do I need permission to study in the UK?"
+      ],
+      "responses": [
+        "Most international students will need a Student visa to study in the UK. Check UK government guidelines based on your nationality and course duration."
+      ]
+    },
+    {
+      "tag": "cas_document",
+      "patterns": [
+        "What is a CAS?",
+        "When will I receive my CAS?",
+        "Tell me about Confirmation of Acceptance",
+        "How do I get a CAS document?"
+      ],
+      "responses": [
+        "A CAS (Confirmation of Acceptance for Studies) is a document required for your visa application. You'll receive it after you've met all conditions of your offer and paid any required deposits."
+      ]
+    },
+    {
+      "tag": "atas_certificate",
+      "patterns": [
+        "What is an ATAS certificate?",
+        "Do I need ATAS?",
+        "Tell me about Academic Technology Approval",
+        "Is ATAS required for my course?"
+      ],
+      "responses": [
+        "ATAS (Academic Technology Approval Scheme) is required for certain courses related to science, technology, engineering, and mathematics. Your offer letter will confirm if you need one. Most Teesside master's programmes don't need an ATAS certificate."
+      ]
+    },
+    {
+      "tag": "apply_atas",
+      "patterns": [
+        "How do I apply for ATAS?",
+        "ATAS application process",
+        "Where do I get an ATAS certificate?",
+        "Is there a fee for ATAS?"
+      ],
+      "responses": [
+        "Complete and submit a short online form. There is no fee for this application."
+      ]
+    },
+    {
+      "tag": "visa_financial_requirement",
+      "patterns": [
+        "How much money do I need for my visa?",
+        "What are the financial requirements for a student visa?",
+        "How much funds do I need to show?",
+        "Visa financial evidence required"
+      ],
+      "responses": [
+        "You need to provide evidence of at least £1,136 per month, up to a maximum of 9 months (£10,224), for the duration of your programme, plus full programme fees."
+      ]
+    },
+    {
+      "tag": "visa_refusal_deposit",
+      "patterns": [
+        "What if my visa is refused?",
+        "Can I get my deposit back if visa is rejected?",
+        "Visa refusal and deposits",
+        "What happens to my money if visa is denied?"
+      ],
+      "responses": [
+        "If your visa is refused, contact the International Office about refund policies. If your visa is issued, the University keeps your deposit."
+      ]
+    },
+    {
+      "tag": "working_while_studying",
+      "patterns": [
+        "Can I work while studying?",
+        "Am I allowed to work on a student visa?",
+        "How many hours can I work?",
+        "Part-time work for students"
+      ],
+      "responses": [
+        "Student visa holders can typically work up to 20 hours per week during term time and full-time during holidays. Check your visa conditions for specific restrictions."
+      ]
+    },
+    {
+      "tag": "english_language_test_requirement",
+      "patterns": [
+        "Do I need an English test?",
+        "Is IELTS required?",
+        "Do I have to take an English language test?",
+        "English proficiency requirement"
+      ],
+      "responses": [
+        "Most international students applying for a visa to study in the UK will need to take an approved English Language Test (such as IELTS or TOEFL)."
+      ]
+    },
+    {
+      "tag": "why_english_test",
+      "patterns": [
+        "Why do I need an English test?",
+        "Why is English proficiency required?",
+        "What's the purpose of the English language test?"
+      ],
+      "responses": [
+        "The university needs evidence of your English ability before providing you with a CAS to support your visa application."
+      ]
+    },
+    {
+      "tag": "accepted_english_qualifications",
+      "patterns": [
+        "What English tests are accepted?",
+        "Which English qualifications do you accept?",
+        "Is TOEFL accepted?",
+        "Can I use IELTS?"
+      ],
+      "responses": [
+        "IELTS and TOEFL are commonly accepted. Check your specific course requirements for minimum scores."
+      ]
+    },
+    {
+      "tag": "upload_english_certificate",
+      "patterns": [
+        "Can I upload my IELTS certificate?",
+        "How do I submit English test results?",
+        "Where do I attach my English qualification?",
+        "Can I upload TOEFL with my application?"
+      ],
+      "responses": [
+        "Yes, you can upload proof of English Language Qualifications (IELTS or TOEFL certificate) as part of your application."
+      ]
+    },
+    {
+      "tag": "english_requirement_not_met",
+      "patterns": [
+        "What if I don't meet English requirements?",
+        "My English score is too low",
+        "I need to improve my English",
+        "English language preparation options"
+      ],
+      "responses": [
+        "You may be able to complete a preparation programme at the Teesside University International Study Centre before starting your degree."
+      ]
+    },
+    {
+      "tag": "entry_requirements_not_met",
+      "patterns": [
+        "What if I don't meet the entry requirements?",
+        "My grades aren't high enough",
+        "I don't have the required qualifications",
+        "Alternative pathways available"
+      ],
+      "responses": [
+        "International students who don't meet direct entry requirements can complete a longer pathway programme at the Teesside University International Study Centre."
+      ]
+    },
+    {
+      "tag": "pathway_programme_progression",
+      "patterns": [
+        "What happens after pathway programme?",
+        "Can I progress to my degree?",
+        "Foundation programme to degree",
+        "Next steps after preparation course"
+      ],
+      "responses": [
+        "Upon successful completion of the pathway programme, you can progress to your degree study at Teesside University."
+      ]
+    },
+    {
+      "tag": "available_scholarships",
+      "patterns": [
+        "What scholarships are available?",
+        "Are there any scholarships?",
+        "Financial aid options",
+        "Funding opportunities for students"
+      ],
+      "responses": [
+        "Teesside University offers various scholarships for UK, EU, and international students. Check the university website for current opportunities or contact Student Services at 01642 342277."
+      ]
+    },
+    {
+      "tag": "scholarship_application",
+      "patterns": [
+        "How do I apply for scholarships?",
+        "Scholarship application process",
+        "Where do I apply for funding?",
+        "How to get financial support?"
+      ],
+      "responses": [
+        "Scholarship applications are typically submitted through the university portal. Some scholarships are automatically considered upon admission. Check specific scholarship requirements for details."
+      ]
+    },
+    {
+      "tag": "uk_student_financial_support",
+      "patterns": [
+        "Can UK students get financial support?",
+        "Student loans for UK students",
+        "Financial help for home students",
+        "Student Finance England"
+      ],
+      "responses": [
+        "UK students may be eligible for student loans through Student Finance England. Contact Student Services at 01642 342277 for guidance."
+      ]
+    },
+    {
+      "tag": "international_scholarships",
+      "patterns": [
+        "Are there scholarships for international students?",
+        "Financial support for overseas students",
+        "International student funding",
+        "Scholarships for non-UK students"
+      ],
+      "responses": [
+        "Yes, Teesside offers international scholarships. Check the International Office website or contact them at 01642 384415 for available opportunities."
+      ]
+    },
+    {
+      "tag": "work_for_income",
+      "patterns": [
+        "Can I work to support myself?",
+        "Part-time jobs for students",
+        "Working while studying",
+        "Student employment opportunities"
+      ],
+      "responses": [
+        "Yes, students can work part-time during term time (subject to visa restrictions for international students). Student visa holders can typically work up to 20 hours per week during term time."
+      ]
+    },
+    {
+      "tag": "financial_advice_services",
+      "patterns": [
+        "Where can I get financial advice?",
+        "Money management support",
+        "Financial guidance for students",
+        "Who helps with financial planning?"
+      ],
+      "responses": [
+        "Student Services at 01642 342277 provides financial advice, budgeting support, and information about available funding options."
+      ]
+    },
+    {
+      "tag": "ucas_application_process",
+      "patterns": [
+        "How do I apply through UCAS?",
+        "UCAS application process",
+        "Applying via UCAS",
+        "What is the UCAS procedure?"
+      ],
+      "responses": [
+        "All undergraduate applications are made online through UCAS. Your school or college will issue you with a buzzword to link your application."
+      ]
+    },
+    {
+      "tag": "ucas_buzzword",
+      "patterns": [
+        "What is a UCAS buzzword?",
+        "What is a buzzword?",
+        "Why do I need a buzzword?",
+        "How do I get a buzzword?"
+      ],
+      "responses": [
+        "A buzzword is a code issued by your school or college that links your UCAS application to your place of study so a reference can be attached."
+      ]
+    },
+    {
+      "tag": "ucas_course_limit",
+      "patterns": [
+        "How many courses can I apply for on UCAS?",
+        "UCAS course limit",
+        "How many choices on UCAS?",
+        "Maximum courses on UCAS application"
+      ],
+      "responses": [
+        "You can apply for up to five courses through UCAS in one application cycle."
+      ]
+    },
+    {
+      "tag": "ucas_deadline",
+      "patterns": [
+        "What is the UCAS deadline?",
+        "When should I submit my UCAS application?",
+        "UCAS application deadline date",
+        "Last date for UCAS"
+      ],
+      "responses": [
+        "The main UCAS deadline for most courses is January 29th for September entry."
+      ]
+    },
+    {
+      "tag": "late_ucas_application",
+      "patterns": [
+        "Can I apply after the UCAS deadline?",
+        "I missed the UCAS deadline",
+        "Late UCAS applications",
+        "Apply after January deadline"
+      ],
+      "responses": [
+        "Some courses may accept late applications. Contact admissions at 01642 384228 to discuss options if you've missed the main deadline."
+      ]
+    },
+    {
+      "tag": "ucas_application_information",
+      "patterns": [
+        "What information do I need for UCAS?",
+        "UCAS application requirements",
+        "What to include in UCAS application",
+        "Information needed for UCAS"
+      ],
+      "responses": [
+        "You'll need personal details, education history, employment history, personal statement, and reference."
+      ]
+    },
+    {
+      "tag": "personal_statement_guidance",
+      "patterns": [
+        "How do I write a personal statement?",
+        "Personal statement tips",
+        "What should I include in my personal statement?",
+        "Help with personal statement"
+      ],
+      "responses": [
+        "Your personal statement should explain why you want to study the course, relevant experience, skills, and career aspirations."
+      ]
+    },
+    {
+      "tag": "personal_statement_length",
+      "patterns": [
+        "How long should my personal statement be?",
+        "Personal statement word limit",
+        "UCAS personal statement length",
+        "Character limit for personal statement"
+      ],
+      "responses": [
+        "UCAS personal statements are limited to 4,000 characters or 47 lines of text."
+      ]
+    },
+    {
+      "tag": "academic_support_available",
+      "patterns": [
+        "What academic support is available?",
+        "Study support services",
+        "Help with my studies",
+        "Academic assistance"
+      ],
+      "responses": [
+        "Teesside offers academic support including library services, study skills workshops, writing support, and subject-specific tutoring."
+      ]
+    },
+    {
+      "tag": "access_disability_services",
+      "patterns": [
+        "How do I access disability services?",
+        "Support for disabled students",
+        "Disability accommodations",
+        "Who do I contact about disabilities?"
+      ],
+      "responses": [
+        "Contact Disability Services on 01642 342278 to discuss your needs and arrange appropriate support."
+      ]
+    },
+    {
+      "tag": "disability_support_types",
+      "patterns": [
+        "What disability support is available?",
+        "Types of disability accommodations",
+        "What help can I get?",
+        "Disability services offered"
+      ],
+      "responses": [
+        "Support may include adjustments to assessments, assistive technology, note-taking services, and specialist mentoring."
+      ]
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "Is there mental health support?",
+        "Counseling services available",
+        "Help with mental health",
+        "Wellbeing support"
+      ],
+      "responses": [
+        "Yes, the university offers counseling services, mental health support, and wellbeing programs. Contact Student Services at 01642 342277 for access."
+      ]
+    },
+    {
+      "tag": "library_access",
+      "patterns": [
+        "How do I access the library?",
+        "Library services",
+        "Can I use the library?",
+        "What's in the library?"
+      ],
+      "responses": [
+        "You'll receive library access details when you enroll. The library offers study spaces, books, journals, and online resources."
+      ]
+    },
+    {
+      "tag": "clubs_and_societies",
+      "patterns": [
+        "What clubs are available?",
+        "Student societies",
+        "Extracurricular activities",
+        "What can I join?"
+      ],
+      "responses": [
+        "The Teesside University Students' Union (TUSU) offers a wide range of clubs and societies covering sports, culture, academics, and special interests."
+      ]
+    },
+    {
+      "tag": "freshers_week",
+      "patterns": [
+        "What is Freshers' Week?",
+        "Tell me about Freshers",
+        "What happens in the first week?",
+        "Orientation week"
+      ],
+      "responses": [
+        "Freshers' Week is an orientation period at the start of the academic year with events, activities, and opportunities to meet other students."
+      ]
+    },
+    {
+      "tag": "students_union_events",
+      "patterns": [
+        "What events does the Students' Union organize?",
+        "TUSU activities",
+        "Student events",
+        "What's happening on campus?"
+      ],
+      "responses": [
+        "TUSU organizes social nights, charity events, cultural festivals, sports competitions, and various themed events throughout the year."
+      ]
+    },
+    {
+      "tag": "sports_facilities",
+      "patterns": [
+        "Are there sports facilities?",
+        "Gym on campus",
+        "What sports facilities are available?",
+        "Where can I exercise?"
+      ],
+      "responses": [
+        "Yes, Teesside has sports facilities including a gym, sports halls, and outdoor spaces for various activities."
+      ]
+    },
+    {
+      "tag": "join_sports_team",
+      "patterns": [
+        "How do I join a sports team?",
+        "University sports teams",
+        "Can I play sports?",
+        "Athletic teams available"
+      ],
+      "responses": [
+        "Visit the Students' Union or contact the sports department to find out about team trials and recreational sports options."
+      ]
+    },
+    {
+      "tag": "campus_safety",
+      "patterns": [
+        "Is the campus safe?",
+        "Campus security",
+        "How safe is the university?",
+        "Security services"
+      ],
+      "responses": [
+        "Teesside University is a safe and friendly campus with security services, well-lit areas, and support services available 24/7."
+      ]
+    },
+    {
+      "tag": "it_services",
+      "patterns": [
+        "What IT services are available?",
+        "Computer facilities",
+        "Wi-Fi on campus",
+        "Technology support"
+      ],
+      "responses": [
+        "Students have access to computer labs, Wi-Fi throughout campus, software licenses, and IT support services."
+      ]
+    },
+    {
+      "tag": "it_account_timing",
+      "patterns": [
+        "When will I receive my IT account?",
+        "How do I get my login details?",
+        "University account information",
+        "When can I access IT systems?"
+      ],
+      "responses": [
+        "Your Teesside University IT account details are typically sent via email several days after your application has been received and processed."
+      ]
+    },
+    {
+      "tag": "it_account_access",
+      "patterns": [
+        "What can I access with my IT account?",
+        "What is my IT account for?",
+        "University systems access",
+        "What services need my login?"
+      ],
+      "responses": [
+        "Your IT account provides access to the Applicant Portal, online learning resources, email, and various university systems."
+      ]
+    },
+    {
+      "tag": "it_support_help",
+      "patterns": [
+        "Where can I get IT help?",
+        "Technical support",
+        "My account isn't working",
+        "Computer problems"
+      ],
+      "responses": [
+        "Contact the IT Service Desk for technical support with your account, devices, or accessing university systems."
+      ]
+    },
+    {
+      "tag": "_preparation_programmes",
+      "patterns": [
+        "What preparation programmes are available?",
+        "Foundation year options",
+        "Pre-sessional courses available",
+        "Pathway programmes offered"
+      ],
+      "responses": [
+        "The Teesside University International Study Centre offers various preparation programmes designed to help you meet entry requirements."
+      ]
+    },
+    {
+      "tag": "international_postgrad_application",
+      "patterns": [
+        "How do international students apply for postgraduate?",
+        "International PG application process",
+        "Applying from overseas for masters",
+        "Non-UK postgraduate applications"
+      ],
+      "responses": [
+        "International students can apply online through the university website, selecting their desired course and using the 'apply online' link."
+      ]
+    },
+    {
+      "tag": "international_application_differences",
+      "patterns": [
+        "Is the process different for international students?",
+        "Do international students follow the same process?",
+        "Any special requirements for overseas applicants?"
+      ],
+      "responses": [
+        "The core process is the same, but international students will need to provide additional documents such as passport, visa history, and English language qualifications."
+      ]
+    },
+    {
+      "tag": "international_application_help",
+      "patterns": [
+        "Can I get help with my international application?",
+        "Support for overseas applicants",
+        "Who can help with my application?",
+        "International student application guidance"
+      ],
+      "responses": [
+        "Yes, contact the International Office on 01642 384415 for specific guidance on international applications."
+      ]
+    },
+    {
+      "tag": "university_acceptance_rate",
+      "patterns": [
+        "What is the acceptance rate?",
+        "How selective is Teesside University?",
+        "What are my chances of getting in?",
+        "Is it hard to get accepted?"
+      ],
+      "responses": [
+        "Teesside University has an acceptance rate of approximately 31%, making it moderately selective."
+      ]
+    },
+    {
+      "tag": "accommodation_options",
+      "patterns": [
+        "What accommodation is available?",
+        "Types of student housing",
+        "Where can I live?",
+        "University accommodation options"
+      ],
+      "responses": [
+        "Teesside offers a range of accommodation including halls of residence, en-suite rooms, shared houses, and student apartments, all within walking distance of campus."
+      ]
+    },
+    {
+      "tag": "first_year_accommodation_guarantee",
+      "patterns": [
+        "Is accommodation guaranteed for first years?",
+        "Will I definitely get university housing?",
+        "Accommodation guarantee for new students",
+        "Can first years get accommodation?"
+      ],
+      "responses": [
+        "Contact the Accommodation Office at 01642 342277 for information about guarantees and availability for first-year students."
+      ]
+    },
+    {
+      "tag": "accommodation_costs",
+      "patterns": [
+        "How much does accommodation cost?",
+        "What are the accommodation prices?",
+        "Rent costs for student housing",
+        "University housing fees"
+      ],
+      "responses": [
+        "Accommodation costs vary depending on the type and location. Premium options like Cornell Quarter cost around £165 per week. Contact Student Services for detailed pricing."
+      ]
+    },
+    {
+      "tag": "cornell_quarter",
+      "patterns": [
+        "What is Cornell Quarter?",
+        "Tell me about Cornell Quarter accommodation",
+        "Cornell Quarter facilities",
+        "Premium accommodation options"
+      ],
+      "responses": [
+        "Cornell Quarter is the most premium accommodation option, offering modern facilities at Euro 165 per week, conveniently located near the centre of campus."
+      ]
+    },
+    {
+      "tag": "apply_for_accommodation",
+      "patterns": [
+        "How do I apply for accommodation?",
+        "When should I apply for housing?",
+        "University accommodation application process",
+        "How to get student housing"
+      ],
+      "responses": [
+        "Apply through the accommodation portal after receiving your offer. Details will be sent to you with information about the application process. Apply as soon as you receive your offer to ensure the best choice of accommodation options."
+      ]
+    },
+    {
+      "tag": "accommodation_location",
+      "patterns": [
+        "Is accommodation on campus?",
+        "Where is student housing located?",
+        "How far is accommodation from campus?",
+        "On-campus or off-campus housing?"
+      ],
+      "responses": [
+        "Teesside offers both on-campus and off-campus accommodation options, all within walking distance of the university."
+      ]
+    },
+    {
+      "tag": "accommodation_deposit",
+      "patterns": [
+        "Do I need to pay a deposit for accommodation?",
+        "How much is the accommodation deposit?",
+        "When do I pay accommodation deposit?",
+        "Housing deposit requirement"
+      ],
+      "responses": [
+        "Yes, you must pay a deposit of £150 when you confirm your acceptance. Full details are sent with your offer of accommodation."
+      ]
+    },
+    {
+      "tag": "accommodation_rent_payment",
+      "patterns": [
+        "When do I pay rent?",
+        "How do I pay for accommodation?",
+        "Accommodation payment schedule",
+        "When are rent payments due?"
+      ],
+      "responses": [
+        "You must arrange your rent payments according to the schedule provided in your accommodation contract. Accommodation fees can typically be paid in installments throughout the academic year."
+      ]
+    },
+    {
+      "tag": "cancel_accommodation",
+      "patterns": [
+        "Can I cancel my accommodation?",
+        "What if I want to cancel housing?",
+        "Accommodation cancellation policy",
+        "How do I get out of my accommodation contract?"
+      ],
+      "responses": [
+        "Contact the Accommodation Office at 01642 342277 regarding cancellation policies and any potential refunds or charges."
+      ]
+    },
+    {
+      "tag": "living_costs_estimate",
+      "patterns": [
+        "What is the cost of living?",
+        "How much money do I need for living expenses?",
+        "Estimated living costs in Middlesbrough",
+        "How expensive is it to live there?"
+      ],
+      "responses": [
+        "The minimum cost of living as recommended by UK-VI for studying outside London is £1,136 per month, but this varies from student to student."
+      ]
+    },
+    {
+      "tag": "living_costs_breakdown",
+      "patterns": [
+        "What does cost of living include?",
+        "What expenses are covered in living costs?",
+        "Cost of living breakdown",
+        "What do I need to budget for?"
+      ],
+      "responses": [
+        "Living costs typically cover accommodation, food, laundry, books, clothes, toiletries, and socializing."
+      ]
+    },
+    {
+      "tag": "middlesbrough_affordability",
+      "patterns": [
+        "Is Middlesbrough expensive?",
+        "How affordable is Middlesbrough compared to other cities?",
+        "Cost comparison with other UK cities",
+        "Is it cheaper than London?"
+      ],
+      "responses": [
+        "Middlesbrough is generally more affordable than major cities like London, Manchester, or Edinburgh."
+      ]
+    },
+    {
+      "tag": "budgeting_help",
+      "patterns": [
+        "Can I get help with budgeting?",
+        "Financial planning support",
+        "Who can help me manage my money?",
+        "Budgeting advice for students"
+      ],
+      "responses": [
+        "Yes, Student Services at 01642 342277 can provide guidance on budgeting and managing your finances while studying."
+      ]
+    },
+    {
+      "tag": "undergraduate_tuition_fees",
+      "patterns": [
+        "How much are undergraduate fees?",
+        "UG tuition costs",
+        "Bachelor's degree fees",
+        "Undergraduate programme costs"
+      ],
+      "responses": [
+        "Tuition fees vary by course and student status (UK/EU/International). Check specific course pages for current fee information."
+      ]
+    },
+    {
+      "tag": "postgraduate_tuition_fees",
+      "patterns": [
+        "How much are postgraduate fees?",
+        "Masters degree costs",
+        "PG tuition fees",
+        "Postgraduate programme prices"
+      ],
+      "responses": [
+        "Postgraduate fees vary by programme. Visit the course page or contact admissions at 01642 384228 for specific fee information."
+      ]
+    },
+    {
+      "tag": "tuition_payment_deadline",
+      "patterns": [
+        "When do I pay tuition fees?",
+        "When are fees due?",
+        "Tuition payment deadline",
+        "When must I pay for my course?"
+      ],
+      "responses": [
+        "Tuition fees are typically due at the start of each academic term, or you can arrange a payment plan."
+      ]
+    },
+    {
+      "tag": "tuition_payment_installments",
+      "patterns": [
+        "Can I pay fees in installments?",
+        "Payment plan for tuition",
+        "Can I spread out my payments?",
+        "Installment options for fees"
+      ],
+      "responses": [
+        "Yes, the university offers payment plans allowing you to pay tuition fees in installments throughout the year."
+      ]
+    },
+    {
+      "tag": "late_tuition_payment",
+      "patterns": [
+        "What if I can't pay on time?",
+        "I'm having trouble paying fees",
+        "Late payment of tuition",
+        "Financial difficulties with fees"
+      ],
+      "responses": [
+        "Contact Student Services at 01642 342277 immediately to discuss payment options and avoid any holds on your account."
+      ]
+    }
+  ]
+}
