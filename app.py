@@ -10,12 +10,12 @@ import base64
 # Load the label encoder, responses, and vectorizers
 label_encoder = joblib.load('label_encoder.pkl')
 tag_responses = joblib.load('tag_responses.pkl')
-vectorizer = joblib.load('Embeddings/vectorizer.pkl')
-bow_vectorizer = joblib.load('Embeddings/bow_model.pkl')
+vectorizer = joblib.load('vectorizer.pkl')
+bow_vectorizer = joblib.load('bow_model.pkl')
 
 # Load the models
-ann_model = load_model('Models/ann_model.h5')
-lstm_model = load_model('Models/lstm_model.h5')
+ann_model = load_model('ann_model.h5')
+lstm_model = load_model('lstm_model.h5')
 
 # Initialize NLTK components
 stop_words = set(stopwords.words('english'))
@@ -78,7 +78,7 @@ def set_background(image_path):
     )
 
 # Set the background image
-set_background('image/bg.jpg')
+set_background('bg.jpg')
 
 # Streamlit App
 st.title('Teesside FAQ Chatbot')
@@ -95,3 +95,4 @@ user_input = st.text_input("You:", "")
 if user_input:
     response = predict_response(user_input, model_type)
     st.write(f"Chatbot: {response}")
+
